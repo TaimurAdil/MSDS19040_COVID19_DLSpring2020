@@ -28,7 +28,7 @@ Covid Images Dataset:
 ## Detailed Analysis
 
 
-###TASK - 1: Load pretrained CNN model and fine-tune FC Layers 
+### TASK - 1: Load pretrained CNN model and fine-tune FC Layers 
 
 We are going to train and test out two state of the art CNN models ResNet18 and VGG16 on COVID-19 dataset. These models are previously trained on ImageNet. 
 
@@ -228,7 +228,7 @@ tensor ([[133., 482.], [212., 673.]])
 
  
 
-###TASK - 2: Fine-tune the CNN and FC layers of the network 
+### TASK - 2: Fine-tune the CNN and FC layers of the network 
 
 For this task I have unfreeze all layers and then train on CONVID dataset, then freeze few and train dataset   
 
@@ -444,7 +444,7 @@ VGG for Task2 for me is better than Task1 as we have trained this model by unfre
 
 ## Part B Multi Class Classification: 
 
-###TASK - 1: Finetune pre-trained CNN models 
+### TASK - 1: Finetune pre-trained CNN models 
 
 I have used two models to train and implement assignment 5 which is ResNet 18 and VGG 16. As I removed the FC layers and add FC layers of my choice outpur of last layer is 3 as we have 3 classed to classify  
 
